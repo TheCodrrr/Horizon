@@ -25,5 +25,7 @@ const userSchema = new mongoose.Schema({
     }
 );
 
-const User = mongoose.model("User", userSchema);
+const db = mongoose.connection.useDb("horizon_user_details")
+
+const User = db.model("User", userSchema);
 export default User;
