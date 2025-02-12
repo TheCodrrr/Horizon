@@ -2,8 +2,8 @@ import React from "react";
 
 function App() {
   return (
-    <div className="container">
-      <h1>Hello</h1>
+    <div className="text-blue-500 text-3xl font-bold">
+      Tailwind is working!
     </div>
   );
 }
